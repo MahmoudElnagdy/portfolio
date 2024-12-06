@@ -1,0 +1,520 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(fonts/poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-light;
+    src: url(fonts/poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppins-thin;
+    src: url(fonts/poppins/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(fonts/poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: montserrat-black;
+    src: url(fonts/static/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: montserrat-semibold ;
+    src: url(fonts/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: montserrat-bold;
+    src: url(fonts/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: montserrat-regular;
+    src: url(fonts/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat-medium;
+    src: url(fonts/static/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: montserrat-thin;
+    src: url(fonts/static/Montserrat-Thin.ttf);
+}
+.brand{
+    font-family: montserrat-bold;
+}
+
+.icons{
+    font-family: poppins-light;
+}
+.header-caption h1{
+    font-family: montserrat-black;
+}
+.header-caption h2{
+    font-family: montserrat-thin;
+}
+.animate::after{
+    content: ' ';
+    position: absolute;
+    
+    animation-name: text;
+    animation-duration: 7s;
+animation-iteration-count: infinite;
+font-family: montserrat-medium;
+
+}
+@keyframes text {
+  
+    0%{
+        content: '';
+ 
+    }
+    1%{
+        content: 'L';
+     
+    }
+    2%{
+        content: 'La';
+       
+    }
+    3%
+    {
+        content: 'Lar';
+       
+    }
+    4%{
+        content: 'Larr';
+      
+    }
+    5%{
+        content: 'Larry';
+    }
+    6%{
+        content: 'Larry ';
+      
+    }
+    7%{
+        content: 'Larry D';
+      
+    }
+    8%{
+        content: 'Larry Da';
+      
+    }
+  
+    9%{
+        content: 'Larry Dan';
+      
+    }
+    10%{
+        content: 'Larry Dani';
+      
+    }
+   11%{
+        content: 'Larry Danie';
+      
+    }
+   
+    12%{
+        content: 'Larry Daniel';
+      
+    }
+    13%{
+        content: 'Larry Daniels';
+      
+    }
+    14%{
+        content: 'Larry Daniels';
+      
+    }
+    15%{
+        content: 'Larry Daniels';
+    }
+    16%{
+        content: 'Larry Daniels';
+      
+    }
+    17%{
+        content:'Larry Daniels' ;
+      
+    }
+    18%{
+        content:'Larry Daniels' ;
+      
+    }
+
+     19%{
+        content: 'Larry Daniel ';
+      
+    }
+    20%{
+        content: 'Larry Danie' ;
+    }
+   21%{
+        content: 'Larry Dani';
+       
+      
+    }
+
+22%{
+        content: 'Larry Dan';
+      
+    }
+
+    23%{
+        content:'Larry Da' ;
+      
+    }
+    24%{
+        content: 'Larry D';
+      
+    }
+        25%{
+        content: 'Larry ';
+      
+    }
+    26%{
+        content: 'Larry';
+      
+    }
+    27%{
+        content: 'Larr';
+      
+    }
+    28%{
+        content: 'Lar';
+      
+    }
+    29%{
+        content: 'La';
+      
+    }
+    30%{
+        content: 'L';
+      
+    }
+    31%{
+        content: '';
+      
+    }
+    32%{
+        content: 'D';
+ }
+33%{
+        content: 'De';
+}
+34%{
+    content: 'Dev';
+}
+35%{
+    content: 'Deve';
+}
+
+36%{
+        content: 'Devel';
+    }
+    37%{
+        content: 'Develo';
+    }
+
+  38%{
+        content: 'Develop';
+    }
+    39%{
+        content: 'Develope';
+    }
+    40%{
+        content: 'Developer';
+    }
+    41%{
+        content: 'Developer';
+    }
+    42%{
+        content: 'Developer';
+    }
+    43%{
+        content: 'Developer';
+    }
+    44%{
+        content: 'Developer';
+    }
+    45%{
+        content: 'Develo';
+    }
+    46%{
+        content: 'Devel';
+    }
+    47%{
+        content: 'Deve';
+    }
+    48%{
+        content: 'Dev';
+    }
+    49%{
+        content: 'De';
+    }
+    50%{
+        content: '';
+
+  
+        }
+        51%{
+            content: 'D';
+        }
+        52%{
+            content: 'De';
+        }
+        53%{
+            content: 'Des';
+        }
+        54%{
+            content: 'Desi';
+        }
+        55%{
+            content: 'Desig';
+        }
+        56%{
+            content: 'Design';
+        }
+        57%{
+            content: 'Designe';
+        }
+        58%{
+            content: 'Designer';
+        }
+        59%{
+            content: 'Designer';
+        }
+        60%{
+            content: 'Designer';
+        }
+        61%{
+            content: 'Designer';
+        }
+        62%{
+            content: 'Designer';
+        }
+          
+        63%{
+            content: 'Design';
+        }
+        64%{
+            content: 'Desig';
+        }
+        65%{
+            content: 'Desi';
+        }
+        66%{
+            content: 'Des';
+        }
+        67%{
+            content: 'De';
+        }
+        68%{
+            content: 'D';
+        }
+        69%{
+            content: '';
+        }
+        100%{
+            content: '';
+        }
+    }
+    .header{
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+.header-caption i{
+    
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+
+.about h2{
+    font-family: montserrat-bold;
+}
+.about h3{
+    font-family: poppins-light;
+    color: #748182;
+    letter-spacing: 2px;
+
+}
+.about span{
+    font-family: poppins-bold;
+    color: #748182;
+   
+}
+.about p{
+    font-family: poppins-light;
+    color: #748182;
+}
+.progress-caption span{
+    font-family: montserrat-regular;
+
+}
+.cv-button{
+    font-family: poppins-light;
+    transition:  1s;
+}
+.contact-button{
+    font-family: poppins-light;
+    transition: 1s;
+}
+.cv-button:hover{
+    background-color: white;
+    color: black;
+}
+.contact-button:hover{
+    background-color: black ;
+    color: white !important;
+}
+
+.services h2{
+    font-family: montserrat-black;
+   
+}
+
+
+.items h3{
+  font-family: montserrat-bold;
+}
+.items p{
+font-family:poppins-light;
+}
+i{
+    transition: all 0.5s;
+}
+.inner:hover i{
+    background-color: black !important;
+    color: aliceblue;
+}
+.portfolio h2{
+    font-family: montserrat-black;
+   
+}
+.items-portfolio h4{
+    font-family: montserrat-semibold;
+   
+}
+.items-portfolio{
+    position: relative;
+}
+.overlay{
+    position: absolute ;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+   background-color: rgba(255, 255, 255, 0.9);
+   letter-spacing: 2px;
+  
+}
+.overlay{
+    opacity: 0;
+    transition: 1s;
+}
+.items-portfolio:hover .overlay{
+    opacity: 1;
+}
+.nav-tab a{
+    color: black !important;
+}
+.testimonials h2{
+    font-family: montserrat-black;
+}
+.persons-section img{
+    width: 100px;
+}
+.person-caption h4{
+    font-family: montserrat-semibold;
+   
+}
+.person-caption span{
+    font-family: poppins-medium;
+}
+.person-caption p{
+    font-family: poppins-medium;
+}
+
+.testimonials .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+
+}
+.testimonials .carousel-indicators button:hover{
+    background-color: black;
+}
+.cv-section p{
+    font-family: montserrat-black;
+}
+#p{
+    font-family: poppins-medium;
+}
+.team h2{
+    font-family: montserrat-black;
+}
+.team h3{
+    font-family: montserrat-medium;
+}
+.team h4{
+    font-family: montserrat-bold;
+}
+.card-id{
+    position: relative;
+}
+.overlay-team i{
+ border-radius: 50%;
+}
+.overlay-team{
+    position: absolute ;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+   background-color: rgba(255, 255, 255, 0.9);
+opacity: 0;
+transition: 1s;
+}
+   .card:hover .overlay-team{
+    transform: rotate(360deg);
+    opacity: 1;
+   }
+   .overlay-team i:hover{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+   }
+   .card img{
+    transition: 0.5s;
+   }
+  .card:hover img{
+   transform: scale(1.1);
+  }
+  
+.contact h2{
+    font-family: montserrat-black;
+
+}
+.contact h3{
+    font-family: montserrat-bold;
+}
+.contact p{
+    font-family: poppins-medium;
+}
+.contact i{
+    transition: 0.5s;
+}
+.contact i:hover{
+    background-color: black !important;
+    color: white;
+
+}
